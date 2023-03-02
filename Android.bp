@@ -8,31 +8,6 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-	overrides: ["Aperture", "Camera2", "GCamGOPrebuilt-V2", "GCamGOPrebuilt-V3", "Snap"],
+	overrides: ["Aperture", "Camera2", "Snap"],
 }
 
-android_app_import {
-	name: "GCamGOPrebuilt-V2",
-	owner: "google",
-	apk: "GCamGOPrebuilt-V2.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["Aperture", "Camera2", "GCamGOPrebuilt", "GCamGOPrebuilt-V3", "Snap"],
-}
-
-android_app_import {
-        name: "GCamGOPrebuilt-V3",
-        owner: "google",
-        apk: "GCamGOPrebuilt-V3.apk",
-        presigned: true,
-        dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-        product_specific: true,
-	overrides: ["Aperture", "Camera2", "GCamGOPrebuilt-V2", "GCamGOPrebuilt", "Snap"],
-}

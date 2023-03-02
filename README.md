@@ -9,12 +9,6 @@ PRODUCT_PACKAGES += \
     GCamGOPrebuilt
 ```
 
-## Latest GCamGOPrebuilt packages (Experimental)
-```
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V3
-```
-
 | Source |
 | ------ |
 | [dev-shamim](https://www.celsoazevedo.com/files/android/google-camera/dev-shamim/) |
